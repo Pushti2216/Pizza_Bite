@@ -58,28 +58,72 @@
     <form action="success.html" class="row g-3 w-50 p-lg-5  text-warning fw-bolder" style="margin: 50px 0 0 100px;" autocomplete="off">
         <div class="col-md-4 ">
           <label for="inputEmail4" class="form-label" >Name</label>
-          <input type="text" class="form-control" required>
+          <input type="text" class="form-control" placeholder="Full Name" required>
         </div>
         <div class="col-md-5">
           <label for="inputPassword4" class="form-label">Email</label>
-          <input type="email" class="form-control"required>
+          <input type="email" class="form-control" placeholder="abc@gmail.com" required>
         </div>
         <div class="col-9">
           <label for="inputAddress" class="form-label">Address</label>
           <input type="text" class="form-control" placeholder="Flat No, Society, Landmark" required>
         </div>
-        <div class="col-9">
+        <!--<div class="col-5">
           <label for="inputAddress2" class="form-label">Item Name</label>
           <input type="text" class="form-control" placeholder="Pizza, Pasta, Cold drink" required>
+        </div>-->
+        <div class="col-md-5">
+          <label for="inputState" class="form-label">Select Item</label>
+          <select class="form-select" required>
+            <option selected>Select_____</option>
+            <optgroup label="PIZZA">
+               <option>Neapolitan Pizza</option>
+               <option>Sicilian Pizza</option>
+               <option>Greek Pizza</option>
+               <option>The Works Pizza</option>
+               <option>Detroit Pizza</option>
+               <option>Pepperoni Pizza</option>
+               <option>California Pizza</option>
+               <option>Caucasine Piza</option>
+               <option>American Pizza</option>
+               <option>Margherita Pizza</option>
+               <option>Italian Pizza</option>
+            </optgroup>
+            <optgroup  label="PASTA">
+               <option>Bow Tie Pasta</option>
+               <option>Macaroni Pasta</option>
+               <option>Fusilli Pasta</option>
+               <option>Orecchiette Pasta</option>
+               <option>Rigatoni Pasta</option>
+            </optgroup>
+            <optgroup label="COLD-DRINK">
+              <option>Thumbs-Up</option>
+              <option>Coca-Cola</option>
+              <option>Sprite</option>
+              <option>Pepsi</option>
+           </optgroup>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Pizza Size</label>
+          <select  class="form-select" required>
+            <option selected>Select_____</option>
+            <option>Personal</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+          </select>
         </div>
         <div class="col-md-4">
           <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" required>
+          <input type="text" class="form-control" placeholder="City Name" required>
         </div>
         <div class="col-md-3">
           <label for="inputState" class="form-label">State</label>
           <select  class="form-select" required>
-            <option selected>Gujarat</option>
+            <option selected>Select_____</option>
+            <option>Gujarat</option>
             <option>Maharashtra</option>
             <option>Madhay Pradesh</option>
             <option>Kerala</option>
@@ -89,7 +133,7 @@
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" required>
+          <input type="text" class="form-control" placeholder="000-000" required>
         </div>
         <div class="col-12">
           <div class="form-check">
